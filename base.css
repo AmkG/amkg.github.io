@@ -1,0 +1,50 @@
+
+body {
+	font-size: 120%;
+	position: absolute;
+	left: 25%;
+	width: 65%; }
+
+div.logo {
+	position: absolute;
+	left: -35%;
+	width: 34%;  }
+div.nav {
+	position: absolute;
+	top: 175px; /* height of logo.... */
+	left: -35%;
+	width: 34%; }
+
+/* Don't put TOC in sidebar if width is narrow.  */
+@media all and (max-width: 639px) {
+	body {
+		left: 10%;
+		width: 80%;
+	}
+	div.logo {
+		position: relative;
+		left: 0;
+		width: 100%;
+	}
+	div.nav {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+}
+
+div.footer {
+	font-size: smaller;
+	text-align: center;
+	display: block;
+	background-color: gray; }
+div.header p {
+	display: block;
+	width: 100%;
+	background-color: black;
+	color: white; }
+
+hr {
+	width: 20%; }
+
